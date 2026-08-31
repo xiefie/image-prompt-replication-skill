@@ -1,0 +1,26 @@
+name: Feature request / 功能建议
+description: Propose a focused improvement based on a real workflow gap
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / 问题
+      description: What real prompt workflow cannot be handled reliably today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior / 建议行为
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Scope and tradeoffs / 范围与取舍
+      description: Explain why this belongs in the shared skill rather than one prompt example.
+    validations:
+      required: true
+
