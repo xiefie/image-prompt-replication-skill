@@ -1,0 +1,4 @@
+interface:
+  display_name: "图像复刻提示词工作流"
+  short_description: "从参考图反推提示词、双图差异纠错，并提取可迁移视觉风格"
+  default_prompt: "使用 $image-prompt-replication 分析我上传的参考图，生成高相似度复刻提示词。"
